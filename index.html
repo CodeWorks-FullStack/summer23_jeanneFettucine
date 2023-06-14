@@ -72,6 +72,7 @@
                   Lasagna
                 </p>
                 <p>$21.50</p>
+                <!-- NOTE passing down an argument -->
                 <button onclick="addItemToCart('lasagna')" class="btn btn-primary">Add to cart</button>
               </div>
             </div>
@@ -114,6 +115,7 @@
           <div>
             <h2>Cart</h2>
             <ul id="cart" class="px-5 fs-3">
+              <!-- NOTE this no longer needs to be in my HTML, these <li> tags are now drawn by javascript in my drawCart function -->
               <!-- STUB this is my dish template -->
               <!-- <li>
                 <div class="d-flex fs-3 justify-content-between">
@@ -138,6 +140,7 @@
     </div>
   </main>
 
+  <!-- NOTE the link to sweet alert's javascript library -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
   <script src="app.js"></script>
