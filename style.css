@@ -1,0 +1,13 @@
+header{
+  background-color: rgb(213, 179, 179);
+}
+
+.menu-img{
+  height: 30vh;
+  object-fit: cover;
+}
+
+.menu{
+  max-height: 78vh;
+  overflow-y: auto;
+}
